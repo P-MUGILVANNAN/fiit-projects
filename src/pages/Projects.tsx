@@ -1,6 +1,6 @@
 import type React from "react";
 import { useState } from "react";
-import { Eye, Phone } from "lucide-react";
+import { Eye, Phone, ShoppingCart } from "lucide-react";
 import Modal from "../components/Modal";
 import smart_traffic from "../assets/smart-traffice.webp";
 import block_chain from "../assets/blockchain-vote.png";
@@ -177,10 +177,10 @@ export default function Projects() {
             <p className="text-gray-600 mb-4">{project.description}</p>
             <button
               onClick={() => handleViewDetails(project)}
-              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors inline-flex items-center"
+              className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-700 transition-colors inline-flex items-center"
             >
-              <Eye className="mr-2" size={16} />
-              View Details
+              <ShoppingCart className="mr-2" size={16} />
+              Buy Now
             </button>
           </div>
         </div>
