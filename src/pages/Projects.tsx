@@ -1,6 +1,6 @@
 import type React from "react";
 import { useState } from "react";
-import { Eye, Phone, ShoppingCart } from "lucide-react";
+import { Phone, ShoppingCart } from "lucide-react";
 import Modal from "../components/Modal";
 import smart_traffic from "../assets/smart-traffice.webp";
 import block_chain from "../assets/blockchain-vote.png";
