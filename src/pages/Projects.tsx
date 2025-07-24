@@ -158,7 +158,7 @@ export default function Projects() {
     }
   };
 
-  const renderProjectCards = (projectList: any[], category: string) => (
+  const renderProjectCards = (projectList: any[], _category: string) => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {projectList.map((project) => (
         <div
